@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+}
+
+.rule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+		list-style-type: none;
+		text-align: center;
+
+}
+
+.rule__item {
+    color: azure;
+		border: 1px solid red;
+		padding:20px;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		font-size: 30px;
+		letter-spacing: 1.89px;
+}
+.rule-header{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 50px;
+	letter-spacing: 2.89px;
+}
